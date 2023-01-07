@@ -1,0 +1,28 @@
+.container {
+  width: 170px;
+  height: 100%;
+}
+
+.container a {
+  display: block;
+  margin-bottom: 2px;
+  width: 80%;
+}
+
+.btn-item {
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 12px;
+  padding: 10px 6px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(37, 37, 240);
+  margin-top: 20px;
+  margin-left: 5px;
+}
+
+/* vertical line  */
+.vertical-line {
+  width: 2px;
+  height: 100px;
+  background-color: rgb(214, 30, 30);
+}

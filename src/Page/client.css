@@ -1,0 +1,216 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-body-div {
+  display: flex;
+  flex-direction: row;
+
+  background-color: rgb(249, 249, 249);
+  height: 100vh;
+}
+
+.first-div {
+  background-color: blueviolet;
+  width: 20%;
+}
+
+.second-div {
+  background-color: chartreuse;
+  width: 80%;
+}
+
+.header-div {
+  background-color: rgb(153, 141, 141);
+  width: 100%;
+  height: 10%;
+}
+
+.contentarea {
+  background-color: rgb(143, 27, 27);
+  height: 90%;
+  /* display: flex; */
+}
+
+/*  Navigation css */
+
+.first-div {
+  background-color: rgb(10, 7, 81);
+  width: 20%;
+}
+
+.itemlist {
+  margin-top: 200px;
+  display: flexbox;
+  flex-direction: column;
+  list-style: none;
+}
+
+.item {
+  margin: 30px;
+  font-size: 25px;
+  color: aliceblue;
+  font-family: sans-serif;
+  padding: 20px;
+}
+.item:hover {
+  background-color: darkgray;
+}
+
+a {
+  color: aliceblue;
+  text-decoration: none;
+  margin-top: 50px;
+  font-size: 25px;
+}
+
+#img-nav {
+  width: 80px;
+  height: 80px;
+  margin: 50px;
+  margin-left: 140px;
+}
+
+/* Header  */
+
+.header-div {
+  background-color: rgb(234, 234, 234);
+  width: 100%;
+  height: 10%;
+}
+img {
+  width: 40px;
+  height: 40px;
+  float: left;
+  margin: 10px;
+}
+
+#logo2 {
+  float: right;
+}
+
+/* content area */
+
+.contentarea {
+  background-color: rgb(250, 250, 250);
+  height: 90%;
+}
+
+/* Client navbar button  */
+.container {
+  width: 170px;
+}
+
+.container a {
+  display: block;
+  margin-bottom: 2px;
+  width: 80%;
+}
+
+.btn-item {
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 12px;
+  padding: 10px 6px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(37, 37, 240);
+  margin-top: 30px;
+  margin-left: 5px;
+}
+
+/* vertical line  */
+.vertical-line {
+  width: 2px;
+  height: 100%;
+  background-color: rgb(214, 30, 30);
+}
+
+/* indiviual client data render */
+
+.div-Client-data {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+}
+
+/* Profile-card  */
+.card {
+  width: 500px;
+  height: 200px;
+  background-color: rgb(177, 177, 177);
+  margin: 100px 200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: justify;
+  padding: 10px;
+}
+
+/* Form_filter_month */
+
+.Form-month-filter {
+  width: 200px;
+  height: 40px;
+  position: fixed;
+  right: 20px;
+}
+
+.input-item {
+  width: 100px;
+  height: 30px;
+  padding: 4px;
+  margin-top: 2px;
+  font-size: 10px;
+}
+
+.input-item-btn {
+  background-color: rgb(2, 2, 182);
+  font-size: 12px;
+  color: aliceblue;
+}
+
+/* Documents display list */
+
+.document-list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 0;
+
+  margin-top: 50px;
+  background-color: darkgray;
+  width: 550px;
+  margin-left: 150px;
+}
+
+.document {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 40px;
+}
+
+.name {
+  font-weight: bold;
+  margin-left: 40px;
+}
+
+.date {
+  color: #666;
+  margin-left: 40px;
+}
+
+.view-button,
+.download-button {
+  border: none;
+  background-color: #333;
+  color: #fff;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-left: 40px;
+}
+
+.view-button:hover,
+.download-button:hover {
+  background-color: #666;
+}

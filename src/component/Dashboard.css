@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-body-div {
+  display: flex;
+  flex-direction: row;
+
+  background-color: aquamarine;
+  height: 100vh;
+}
+
+.first-div {
+  background-color: blueviolet;
+  width: 20%;
+}
+
+.second-div {
+  background-color: chartreuse;
+  width: 80%;
+}
+
+.header-div {
+  background-color: rgb(153, 141, 141);
+  width: 100%;
+  height: 10%;
+}
+
+.contentarea {
+  background-color: rgb(143, 27, 27);
+  height: 90%;
+}
